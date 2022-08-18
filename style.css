@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Khula&display=swap");
+
+* {
+  box-sizing: border-box;
+  /* margin: auto; */
+  padding: auto;
+}
+body {
+  color: aliceblue;
+  font-family: "Khula", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* width: 100vw; */
+  overflow: hidden;
+  margin: 0;
+  background: linear-gradient(60deg, #000000 0%, #363636 100%);
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  height: 500px;
+  width: 500px;
+  background-color: #ff0a48;
+  border-radius: 30px;
+}
+
+.container h2 {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  /* margin-bottom: -5px; */
+}
+
+.timer {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  /* background-color: rgb(66, 66, 66); */
+}
+
+.clock {
+  margin: 0 auto;
+  /*   text-align: center; */
+  /*   margin-left: 40px; */
+}
+
+.timerbuttons {
+  /* margin-left: 200px; */
+  text-align: center;
+  /* background-color: #363636; */
+}
